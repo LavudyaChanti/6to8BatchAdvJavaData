@@ -175,15 +175,24 @@ href	=>Hyper Text Reference
 Designing Tables:
 ==============
 1.<table>		:Designing table
-2.<thead>		:All heading we can design
+2.<thead>	:All heading we can design
 3.<tbody>	:Designing table all data
 4.<tr>		:Designing table row
-5.<th>		:Designing table heading
-6.<td>		:Designing table data
+5.<th>		:Designing table individual heading
+6.<td>		:Designing table  individual data
 7.<caption>	:Designing table caption
 
+<table>	attributes:
+----------------------------
+border
+align
 cellspacing:	
 cellpadding:
+
+
+
+
+
 
 <frameset> & <frame> tags:
 =======================
