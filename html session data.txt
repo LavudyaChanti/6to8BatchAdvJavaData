@@ -1,0 +1,314 @@
+
+
+Html Tag Types
+Html Structure
+Html Software requirements
+Html First Program
+-----------------------------------------------------------------------------------
+Day1:
+--------
+
+
+1.Html Tag Types:
+================
+1.Paired Tags
+	<html>		<b>
+
+	</html>		</b>
+2.Unpaired Tags
+	<br>
+	<hr>
+	<img>
+	<input>
+
+
+
+
+
+2.Html Structure:
+==============
+<!DOCTYPE html>
+<html>
+	<head>
+		1.used to prepare 	title		<title>
+		2.used to prepare Css Code		<stye>	
+		3.used to prepare Js code		<script>
+		4.used to prepare meta data of page	<meta>
+	</head>
+	<body>
+		Used prepare data which is printed on browser
+		1.Text
+		2.Image
+		3.Table
+		4.Items(Textbox,button,....)
+		5.Audio/video/pdf,....
+	</body>
+</html>
+
+Html Programming Environments:
+-----------------------------------------------
+1.Html programs are executed on web browsers
+2.Html programs are prepared  in 2 ways
+	1.Using Editors
+	2.Using IDEs
+1.Using Editors:
+---------------------
+	Provides only writing code environment
+Ex:
+	notepad,Notepad++,Sublime Text,....
+2.Using IDEs:
+------------------
+	Provides writing,debug,compile,run code environment
+Ex:
+	DreamViewer,Eclipse,....
+
+
+
+
+4.Html First Program:
+===================
+1..Change body background color:
+===========================
+Approach1:
+==========
+syntax:
+	<body bgcolor="ColorName">
+Ex:
+	<body bgcolor="orange">
+Approach2: By color code(Hexa decimal format)
+==========
+		R	G	B
+
+		00	00	00	=>	Black
+		00	00	FF	=>	Blue
+		FF	00	00	=>	Red
+		00	FF	00	=>	green
+		00	FF	FF	=>	Green & Blue
+		FF	FF	FF	=>	White
+syntax:
+	<body bgcolor="#ColorCode">
+Ex:
+	<body bgcolor="#00FF00">
+
+2.Change body background image:
+==============================
+
+syntax:
+	<body backgrond="ImageName">
+Ex:
+	<body backgrond="Chanti.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+Text Related  Tags:
+================
+1.Heading Tags	:	(<h1> to <h6>)
+2.Font tags	:	<font>
+			<i>,<em>
+			<b>,<strong>
+			<u>
+			<s>
+3.Other Tags	:	<center>
+			<p>
+			<br>
+			<hr>
+			<small>	,	<big>
+			<sup>	,	<sub>
+			<marquee>
+			<pre>
+
+
+
+4.List Tags	:
+	1.Ordered List	:	<ol>,<li>
+	2.Unordered List	:	<ul>,<li>
+	3.Definition List	:	<dl>,<dt>,<dd>
+	
+
+Day2:
+--------
+1.Inserting images into webpage:
+--------------------------------------------
+
+Tag Name:	<img>
+Tag Type	:	unpaired
+Syntax:
+	<img	src="SourceOfImage"
+		alt="Alternate Text"		
+		title="Description Of Image"
+		height=" px"
+		width=" px"
+	>
+
+
+
+
+
+2.Anchor Tag:
+============
+TagName	:	<a>
+TagType	:	paired
+Purpose	:	Creating Links
+
+Syntax:	<a	href="address/url">
+
+		Link Text	/Link Image
+
+	</a>
+
+href	=>Hyper Text Reference
+
+
+
+
+
+Designing Tables:
+==============
+1.<table>		:Designing table
+2.<thead>		:All heading we can design
+3.<tbody>	:Designing table all data
+4.<tr>		:Designing table row
+5.<th>		:Designing table heading
+6.<td>		:Designing table data
+7.<caption>	:Designing table caption
+
+cellspacing:	
+cellpadding:
+
+<frameset> & <frame> tags:
+=======================
+
+
+
+
+
+
+
+
+
+syntax:	<frameset	rows=""		cols=""> 
+	</frameset> 
+syntax:
+	<frame	name=""		src="">
+	</frame>  
+
+Note:
+	Check above program with following code
+
+Code1:	<frameset    rows="*,*,*"> 
+Code2:	<frameset    cols="*,*,*"> 
+
+
+
+
+
+
+1.<form>:
+=========
+	<form	name=""		action=""		method="">
+		//Design rest of 10 items
+	</form>
+
+1.name	=> Name of html form
+	Ex:
+		login,reg,contactus...
+2.action	=>Specifying address of Server/Page
+	Ex:
+	 Server	=>	https://www.mysite.com	
+	 Page	=>	success.html
+
+3.method	=>Specifying  method (get/post)
+
+2.<label>:
+========
+	<label>	Label	Text	</label>
+Ex1:
+	<label>	FullName	</label>
+Ex2:
+	<label>	UserId	</label>
+Note:
+======
+Using <input> tag We can design following 8 items
+
+Syntax:
+	<input	type="Type Of Item">
+
+	ItemType		Syntax to create
+	--------------	------------------------
+3.TextFiled		<input	type="text">
+4.PasswordTextFiled	<input	type="password">
+5.Date Picker		<input	type="date">
+6.Radio Button	<input	type="radio"	value="Value1">Value1
+7.Checkbox	<input	type="checkbox"	value="Value1">Value1
+8.Upload button		<input	type="file">
+9.Submit button		<input	type="submit"	value="Register">
+10.Reset button		<input	type="reset"	value="Delete">
+
+
+textarea:
+========
+syntax:
+
+	<textarea		rows=""		columns="">	
+
+	</textarea>
+
+dropdown box:
+=============	<select>	 &	<option>		tags
+Syntax:
+----------
+	<select>	
+		<option value="Item1">	Item1	</option>
+		<option value="Item2">	Item2	</option>	
+		....
+	</select>	
+
+
+Syntax:
+======
+	<input	type="Type Of Item"	name="Name Of Item">
+Ex:
+	<input	type="text"	name="t1">
+
+Code:
+--------
+	<label>Mail ID
+	</label>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
