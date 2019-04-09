@@ -221,6 +221,8 @@ Code2:	<frameset    cols="*,*,*">
 
 
 
+Html Items :
+==========
 
 1.<form>:
 =========
@@ -238,13 +240,15 @@ Code2:	<frameset    cols="*,*,*">
 
 3.method	=>Specifying  method (get/post)
 
-2.<label>:
+2.<label>:Used for labeling 
 ========
+Syntax:
 	<label>	Label	Text	</label>
 Ex1:
 	<label>	FullName	</label>
 Ex2:
 	<label>	UserId	</label>
+
 Note:
 ======
 Using <input> tag We can design following 8 items
@@ -267,7 +271,6 @@ Syntax:
 textarea:
 ========
 syntax:
-
 	<textarea		rows=""		columns="">	
 
 	</textarea>
@@ -283,17 +286,21 @@ Syntax:
 	</select>	
 
 
-Syntax:
-======
-	<input	type="Type Of Item"	name="Name Of Item">
-Ex:
-	<input	type="text"	name="t1">
 
-Code:
---------
-	<label>Mail ID
-	</label>
+/TG?
 
+TG?
+n1=chanti&
+n2=9849098490&
+n3=2019-04-04&
+n4=Male&
+n5=Telugu&
+n6=PG&
+n7=Sec&
+n8=Book1.xlsx
+
+
+TG
 
 
 
